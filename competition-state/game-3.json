@@ -42,7 +42,8 @@
         [
           {"time": 1733420687059, "isValid": true},
           {"time": 1733420690598, "isValid": true},
-          {"time": 1733420696542, "isValid": true}
+          {"time": 1733420696542, "isValid": true},
+          {"time": 1733420719105, "isValid": true}
         ]
       ],
       "fouls": [[], []],
@@ -50,7 +51,7 @@
       "hasEnded": false,
       "isConfirmed": false,
       "roundMaxLength": 60000,
-      "runs": [{"startTime": 1733420674612, "endTime": null}]
+      "runs": [{"startTime": 1733420674612, "endTime": 1733420719092}]
     }
   ],
   "ballPlacement": [
