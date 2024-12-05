@@ -105,7 +105,7 @@
         ],
         "startingBaskets": ["blue", "magenta"],
         "isTieAllowed": true,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [[], []],
@@ -144,17 +144,29 @@
           },
           {
             "scores": [[], []],
-            "fouls": [[], []],
+            "fouls": [[], [{"time": 1733420252172}]],
             "baskets": ["blue", "magenta"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "duration": 53229,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 60062,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": [{"startTime": 1733420179462, "endTime": 1733420232691}]
+            "runs": [
+              {"startTime": 1733420179462, "endTime": 1733420232691},
+              {"startTime": 1733420257021, "endTime": 1733420263854}
+            ]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {
+            "id": "sometimes-lose-always-win",
+            "name": "Sometimes Lose Always Win"
+          },
+          "roundWinCount": 1,
+          "roundLossCount": 0,
+          "roundTieCount": 2
+        },
         "ballPlacement": [
           [0, 0],
           [1.09, -1.33],
@@ -253,24 +265,24 @@
         "rank": 1
       },
       {
-        "robot": {"id": "warcrime", "name": "Warcrime"},
-        "score": 0,
-        "tieBreakScore": 1,
-        "rank": 2
-      },
-      {
-        "robot": {"id": "k4", "name": "K4"},
-        "score": 0,
-        "tieBreakScore": 0,
-        "rank": 3
-      },
-      {
         "robot": {
           "id": "sometimes-lose-always-win",
           "name": "Sometimes Lose Always Win"
         },
+        "score": 0.7,
+        "tieBreakScore": 0.30000000000000004,
+        "rank": 2
+      },
+      {
+        "robot": {"id": "k4", "name": "K4"},
+        "score": 0.30000000000000004,
+        "tieBreakScore": 0.7,
+        "rank": 3
+      },
+      {
+        "robot": {"id": "warcrime", "name": "Warcrime"},
         "score": 0,
-        "tieBreakScore": 0,
+        "tieBreakScore": 1,
         "rank": 4
       },
       {
@@ -318,7 +330,7 @@
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [[], []],
@@ -357,17 +369,29 @@
       },
       {
         "scores": [[], []],
-        "fouls": [[], []],
+        "fouls": [[], [{"time": 1733420252172}]],
         "baskets": ["blue", "magenta"],
-        "hasEnded": false,
-        "isConfirmed": false,
-        "duration": 53229,
+        "hasEnded": true,
+        "isConfirmed": true,
+        "duration": 60062,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1733420179462, "endTime": 1733420232691}]
+        "runs": [
+          {"startTime": 1733420179462, "endTime": 1733420232691},
+          {"startTime": 1733420257021, "endTime": 1733420263854}
+        ]
       }
     ],
-    "status": {"result": "unknown"},
+    "status": {
+      "result": "won",
+      "winner": {
+        "id": "sometimes-lose-always-win",
+        "name": "Sometimes Lose Always Win"
+      },
+      "roundWinCount": 1,
+      "roundLossCount": 0,
+      "roundTieCount": 2
+    },
     "ballPlacement": [
       [0, 0],
       [1.09, -1.33],
