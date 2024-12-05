@@ -448,10 +448,10 @@
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 2,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1733421607812, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -614,87 +614,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 5,
+    "id": 6,
     "robots": [
-      {"id": "wineeurope", "name": "WineEurope"},
-      {"id": "pelta-x", "name": "Pelta X"}
+      {"id": "k4", "name": "K4"},
+      {"id": "warcrime", "name": "Warcrime"}
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [
-            {"time": 1733421282222, "isValid": true},
-            {"time": 1733421282434, "isValid": false},
-            {"time": 1733421322608, "isValid": false}
-          ],
-          [
-            {"time": 1733421282531, "isValid": true},
-            {"time": 1733421325590, "isValid": true},
-            {"time": 1733421346791, "isValid": true}
-          ]
-        ],
-        "fouls": [[{"time": 1733421301578}], []],
+        "scores": [[], []],
+        "fouls": [[], []],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60006,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 2,
         "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1733421262468, "endTime": 1733421284292},
-          {"startTime": 1733421307140, "endTime": 1733421345322}
-        ]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1733421449818, "isValid": true},
-            {"time": 1733421466134, "isValid": true},
-            {"time": 1733421510186, "isValid": true}
-          ],
-          [
-            {"time": 1733421433166, "isValid": true},
-            {"time": 1733421439030, "isValid": true},
-            {"time": 1733421445108, "isValid": true},
-            {"time": 1733421451545, "isValid": true},
-            {"time": 1733421512583, "isValid": true}
-          ]
-        ],
-        "fouls": [[{"time": 1733421494395}], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60091,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1733421423731, "endTime": 1733421471436},
-          {"startTime": 1733421499107, "endTime": 1733421511493}
-        ]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1733421607812, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "pelta-x", "name": "Pelta X"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [-0.8, -1.41],
-      [0.8, 1.41],
-      [1.59, 0.53],
-      [-1.59, -0.53],
-      [0.79, -1.07],
-      [-0.79, 1.07],
-      [0.89, -0.35],
-      [-0.89, 0.35],
-      [0.23, -0.11],
-      [-0.23, 0.11]
+      [0.74, -0.18],
+      [-0.74, 0.18],
+      [-1.14, 1.24],
+      [1.14, -1.24],
+      [-1.13, 0.11],
+      [1.13, -0.11],
+      [-0.33, -0.81],
+      [0.33, 0.81],
+      [-0.46, 0.21],
+      [0.46, -0.21]
     ]
   }
 }
