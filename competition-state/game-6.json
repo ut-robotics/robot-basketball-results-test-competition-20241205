@@ -1,0 +1,34 @@
+{
+  "id": 6,
+  "robots": [
+    {"id": "k4", "name": "K4"},
+    {"id": "warcrime", "name": "Warcrime"}
+  ],
+  "startingBaskets": ["blue", "magenta"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [0.74, -0.18],
+    [-0.74, 0.18],
+    [-1.14, 1.24],
+    [1.14, -1.24],
+    [-1.13, 0.11],
+    [1.13, -0.11],
+    [-0.33, -0.81],
+    [0.33, 0.81],
+    [-0.46, 0.21],
+    [0.46, -0.21]
+  ]
+}
