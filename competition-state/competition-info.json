@@ -28,17 +28,17 @@
       {"id": "mait", "name": "Mait"}
     ],
     "roundCount": 3,
-    "gameIDs": [1, 2, 3, 4, 5, 6, 7, 8],
+    "gameIDs": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     "byes": [],
     "robotStartingBaskets": {
-      "plus-aura": ["magenta", "blue"],
-      "warcrime": ["blue", "magenta"],
-      "k4": ["blue", "blue"],
-      "sometimes-lose-always-win": ["magenta", "blue"],
-      "wineeurope": ["blue", "blue"],
-      "oopsie": ["magenta", "magenta"],
-      "pelta-x": ["blue", "magenta"],
-      "mait": ["magenta", "magenta"]
+      "plus-aura": ["magenta", "blue", "magenta"],
+      "warcrime": ["blue", "magenta", "blue"],
+      "k4": ["blue", "blue", "magenta"],
+      "sometimes-lose-always-win": ["magenta", "blue", "magenta"],
+      "wineeurope": ["blue", "blue", "blue"],
+      "oopsie": ["magenta", "magenta", "blue"],
+      "pelta-x": ["blue", "magenta", "blue"],
+      "mait": ["magenta", "magenta", "magenta"]
     },
     "hasEnded": false
   }
