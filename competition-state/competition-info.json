@@ -7,7 +7,9 @@
     {"id": "mait", "name": "Mait"},
     {"id": "oopsie", "name": "Oopsie"},
     {"id": "pelta-x", "name": "Pelta X"},
-    {"id": "sometimes-lose-always-win", "name": "Sometimes Lose Always Win"}
+    {"id": "sometimes-lose-always-win", "name": "Sometimes Lose Always Win"},
+    {"id": "warcrime", "name": "Warcrime"},
+    {"id": "wineeurope", "name": "WineEurope"}
   ],
   "tournament": null
 }
