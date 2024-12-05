@@ -29,7 +29,9 @@
       "scores": [
         [
           {"time": 1733421728656, "isValid": true},
-          {"time": 1733421733760, "isValid": true}
+          {"time": 1733421733760, "isValid": true},
+          {"time": 1733421748031, "isValid": true},
+          {"time": 1733421754049, "isValid": true}
         ],
         [{"time": 1733421732508, "isValid": true}]
       ],
