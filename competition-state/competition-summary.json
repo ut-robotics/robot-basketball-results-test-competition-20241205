@@ -45,10 +45,10 @@
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 10,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1733419070252, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -246,5 +246,42 @@
       "mait": ["magenta"]
     },
     "hasEnded": false
+  },
+  "activeGame": {
+    "id": 1,
+    "robots": [
+      {"id": "plus-aura", "name": "+aura"},
+      {"id": "warcrime", "name": "Warcrime"}
+    ],
+    "startingBaskets": ["magenta", "blue"],
+    "isTieAllowed": true,
+    "hasEnded": false,
+    "rounds": [
+      {
+        "scores": [[], []],
+        "fouls": [[], []],
+        "baskets": ["magenta", "blue"],
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 10,
+        "timeLimit": 60000,
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1733419070252, "endTime": null}]
+      }
+    ],
+    "status": {"result": "unknown"},
+    "ballPlacement": [
+      [0, 0],
+      [0.81, 0.89],
+      [-0.81, -0.89],
+      [1.85, -0.41],
+      [-1.85, 0.41],
+      [1.01, 0.98],
+      [-1.01, -0.98],
+      [-1.23, 1.37],
+      [1.23, -1.37],
+      [-0.13, 0.52],
+      [0.13, -0.52]
+    ]
   }
 }
