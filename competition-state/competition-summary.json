@@ -482,12 +482,18 @@
             "runs": [{"startTime": 1733421722092, "endTime": 1733421782143}]
           },
           {
-            "scores": [[], [{"time": 1733421851538, "isValid": true}]],
+            "scores": [
+              [],
+              [
+                {"time": 1733421851538, "isValid": true},
+                {"time": 1733421873194, "isValid": true}
+              ]
+            ],
             "fouls": [[], []],
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 6512,
+            "duration": 28169,
             "timeLimit": 60000,
             "winnerIndex": -1,
             "runs": [{"startTime": 1733421845028, "endTime": null}]
@@ -702,12 +708,18 @@
         "runs": [{"startTime": 1733421722092, "endTime": 1733421782143}]
       },
       {
-        "scores": [[], [{"time": 1733421851538, "isValid": true}]],
+        "scores": [
+          [],
+          [
+            {"time": 1733421851538, "isValid": true},
+            {"time": 1733421873194, "isValid": true}
+          ]
+        ],
         "fouls": [[], []],
         "baskets": ["blue", "magenta"],
         "hasEnded": false,
         "isConfirmed": false,
-        "duration": 6512,
+        "duration": 28169,
         "timeLimit": 60000,
         "winnerIndex": -1,
         "runs": [{"startTime": 1733421845028, "endTime": null}]
