@@ -12,7 +12,8 @@
       "scores": [
         [
           {"time": 1733422153473, "isValid": true},
-          {"time": 1733422199126, "isValid": true}
+          {"time": 1733422199126, "isValid": true},
+          {"time": 1733422284793, "isValid": true}
         ],
         [{"time": 1733422236053, "isValid": true}]
       ],
@@ -27,7 +28,8 @@
       "runs": [
         {"startTime": 1733422141484, "endTime": 1733422159332},
         {"startTime": 1733422192924, "endTime": 1733422201684},
-        {"startTime": 1733422226084, "endTime": 1733422238916}
+        {"startTime": 1733422226084, "endTime": 1733422238916},
+        {"startTime": 1733422279140, "endTime": null}
       ]
     }
   ],
