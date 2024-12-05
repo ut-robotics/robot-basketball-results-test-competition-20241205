@@ -310,17 +310,21 @@
                 {"time": 1733421011137, "isValid": true},
                 {"time": 1733421017867, "isValid": true},
                 {"time": 1733421022374, "isValid": true},
-                {"time": 1733421028630, "isValid": true}
+                {"time": 1733421028630, "isValid": true},
+                {"time": 1733421045628, "isValid": true},
+                {"time": 1733421054151, "isValid": true},
+                {"time": 1733421060865, "isValid": true},
+                {"time": 1733421061070, "isValid": false}
               ]
             ],
             "fouls": [[], []],
             "baskets": ["magenta", "blue"],
-            "hasEnded": false,
+            "hasEnded": true,
             "isConfirmed": false,
-            "duration": 24343,
+            "duration": 60065,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": [{"startTime": 1733421004293, "endTime": null}]
+            "runs": [{"startTime": 1733421004293, "endTime": 1733421064358}]
           }
         ],
         "status": {"result": "unknown"},
@@ -447,17 +451,21 @@
             {"time": 1733421011137, "isValid": true},
             {"time": 1733421017867, "isValid": true},
             {"time": 1733421022374, "isValid": true},
-            {"time": 1733421028630, "isValid": true}
+            {"time": 1733421028630, "isValid": true},
+            {"time": 1733421045628, "isValid": true},
+            {"time": 1733421054151, "isValid": true},
+            {"time": 1733421060865, "isValid": true},
+            {"time": 1733421061070, "isValid": false}
           ]
         ],
         "fouls": [[], []],
         "baskets": ["magenta", "blue"],
-        "hasEnded": false,
+        "hasEnded": true,
         "isConfirmed": false,
-        "duration": 24343,
+        "duration": 60065,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1733421004293, "endTime": null}]
+        "runs": [{"startTime": 1733421004293, "endTime": 1733421064358}]
       }
     ],
     "status": {"result": "unknown"},
