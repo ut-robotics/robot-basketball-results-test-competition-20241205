@@ -1,6 +1,13 @@
 {
   "id": "test-competition-20241205",
   "name": "Test Competition 2024-12-05",
-  "robots": [{"id": "plus-aura", "name": "+aura"}, {"id": "k4", "name": "K4"}],
+  "robots": [
+    {"id": "plus-aura", "name": "+aura"},
+    {"id": "k4", "name": "K4"},
+    {"id": "mait", "name": "Mait"},
+    {"id": "oopsie", "name": "Oopsie"},
+    {"id": "pelta-x", "name": "Pelta X"},
+    {"id": "sometimes-lose-always-win", "name": "Sometimes Lose Always Win"}
+  ],
   "tournament": null
 }
