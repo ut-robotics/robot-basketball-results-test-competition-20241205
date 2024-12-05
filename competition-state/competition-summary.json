@@ -860,10 +860,10 @@
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 3,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1733424309755, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -986,62 +986,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 10,
+    "id": 11,
     "robots": [
-      {"id": "warcrime", "name": "Warcrime"},
-      {"id": "sometimes-lose-always-win", "name": "Sometimes Lose Always Win"}
+      {"id": "plus-aura", "name": "+aura"},
+      {"id": "pelta-x", "name": "Pelta X"}
     ],
-    "startingBaskets": ["blue", "magenta"],
+    "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
         "scores": [[], []],
         "fouls": [[], []],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 741,
-        "timeLimit": 60000,
-        "winnerIndex": -1,
-        "runs": [{"startTime": 1733424162616, "endTime": 1733424163357}]
-      },
-      {
-        "scores": [[], []],
-        "fouls": [[], []],
         "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 586,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 3,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1733424165288, "endTime": 1733424165874}]
-      },
-      {
-        "scores": [[], []],
-        "fouls": [[], []],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 635,
-        "timeLimit": 60000,
-        "winnerIndex": -1,
-        "runs": [{"startTime": 1733424167121, "endTime": 1733424167756}]
+        "runs": [{"startTime": 1733424309755, "endTime": null}]
       }
     ],
-    "status": {"result": "tied"},
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [0.69, 0.96],
-      [-0.69, -0.96],
-      [-1.56, -0.77],
-      [1.56, 0.77],
-      [-0.57, -0.07],
-      [0.57, 0.07],
-      [-1.75, -0.14],
-      [1.75, 0.14],
-      [0.43, -0.89],
-      [-0.43, 0.89]
+      [-0.26, 1.09],
+      [0.26, -1.09],
+      [1.09, 0.13],
+      [-1.09, -0.13],
+      [-0.9, -1.14],
+      [0.9, 1.14],
+      [-0.67, -0.97],
+      [0.67, 0.97],
+      [1.51, 0.81],
+      [-1.51, -0.81]
     ]
   }
 }
